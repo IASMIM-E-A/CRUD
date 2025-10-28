@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+header {
+  background-color: #B0C4DE; 
+  color: #4682B4;
+  text-align: center;
+  height: 75px;
+  padding: 15px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+/* CENTRALIZAR FORM */
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  color: #4682B4;
+  font-weight: bold;
+}
+
+.pag-cadastro {
+  text-align: center;
+  background-color: #f0f4fa;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* PARTES DO FORM */
+.labels {
+  text-align: left;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.labels input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #4682B4;
+  border-radius: 4px;
+}
+
+/* BOTÃO ENVIAR */
+.enviar {
+  background-color: #4682B4;
+  color: white;
+  font-weight: 600;
+  padding: 8px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background-color: #3a6a95;
+}
+
+/* SECTION BOTÕES INFERIORES */
+.opcoes {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.opcoes button {
+  background-color: #4682B4;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.opcoes button:hover {
+  background-color: #9bb8d8;
+}
+
+.opcoes a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+/* FOOTER */
+footer {
+  background-color: #B0C4DE; 
+  color: #4682B4;
+  font-weight: 600;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;
+}
